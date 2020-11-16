@@ -1,21 +1,82 @@
-html {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+*,
+*::after,
+*::before {
   box-sizing: border-box;
+  font-family: "Montserrat";
+  background-color: #dddfd4;
 }
 
-.header-container {
-  text-align: center;
+#header,
+nav {
+  background-color: #dddfd4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/*Card start*/
+#header .nav-link {
+  text-decoration: none;
+  color: black;
+}
 
-.card {
-  display: inline-block;
-  width: 25%;
+ul {
+  list-style: none;
+  display: flex;
+
+  li a {
+    padding: 0 0.6em;
+  }
+}
+
+#header-img {
+  height: 65px;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #173e43;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 12px;
+  text-decoration: none;
+
+  &.btn:hover {
+    background-color: #3fb0ac;
+    color: black;
+  }
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-left {
+  width: 60%;
+}
+
+.header-right {
+  padding: 20px;
+  width: 40%;
+}
+
+/*This start Cart*/
+#product {
+  padding-top: 20px;
+}
+
+.product {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: auto;
+  margin: 20px 1.66%;
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat";
 }
 
 .price {
@@ -23,24 +84,21 @@ html {
   font-size: 22px;
 }
 
-.card button {
-  border: 0;
+.product button {
+  border: none;
   outline: 0;
   padding: 12px;
-  background-color: #000;
+  color: #fff;
+  background-color: #173e43;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
-  color: white;
 }
 
-.card button:hover {
+.product button:hover {
   opacity: 0.7;
+  color: black;
 }
 
-img {
-  width: 100%;
-}
-
-/*Card End*/
+/*End Cart*/
