@@ -13,8 +13,8 @@
     <ul>
       <li><a href="#main" class="nav-link">Home</a></li>
       <li><a href="#product" class="nav-link">Products</a></li>
-      <li><a href="#" class="nav-link">Services</a></li>
-      <li><a href="#" class="nav-link">Contact</a></li>
+      <li><a href="#video" class="nav-link">Video</a></li>
+      <li><a href="#email-form" class="nav-link">Contact</a></li>
     </ul>
   </nav>
 
@@ -27,18 +27,16 @@
       sequi quae? Sit sequi necessitatibus neque fuga veritatis natus nihil optio,
        nulla odit illum laudantium, placeat obcaecati! Id deleniti veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sapiente labore sequi quas minus eos commodi delectus, tenetur autem eligendi molestiae consequuntur perferendis tempora illum expedita consectetur error, ea cum.</p>
        <br>
+       <br>
        <a class="btn" href="http://">Vaata täpsemalt</a>
        
   </div>
   <div class="header-right">
-    <video id="video" width="400" height="249" controls>
-      <source src="./images/Tee - 19793.mp4" type="video/mp4">
-      <source src="mov_bbb.ogg" type="video/ogg">
-      Your browser does not support HTML video.
-    </video>
+    <img src="./images/teacup-2325722_1920.jpg" width="364" height="249" alt="teacup">
   </div>
 </div>
 </section>
+<h2 class="product-text"><< Our Product >></h2>
 <section id="product">
   <div class="container">
     <div class="product">
@@ -64,7 +62,30 @@
     </div>
   </div>
 </section>
+<h2><< Short Video Introduction >></h2>
+<section id="video-container">
+  <video id="video" width="500" height="349" controls>
+    <source src="./images/Tee - 19793.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
 
+</section>
+
+
+
+<footer>
+
+  <section id="email-form">
+    <h2>Become a customer</h2>
+    <form id="form" action=" https://www.freecodecamp.com/email-submit" method="GET">
+      <input type="email" id="email" name="email" placeholder="Place email Address here">
+      <input type="submit" id="submit" action=" https://www.freecodecamp.com/email-submit" value="Submit">
+    </form>
+  </section>
+  
+  <p>Copyright &copy; 2020 Gert Website</p>
+</footer>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
