@@ -15,7 +15,7 @@ User Story #4: I can see at least three clickable elements inside the nav elemen
 
 User Story #5: When I click a<strong> .nav-link </strong>button in the nav element, I am taken to the corresponding <strong>section</strong> of the landing page.
 
-User Story #6: I can watch an embedded product video with<strong> id="video".</storng>
+User Story #6: I can watch an embedded product video with<strong> id="video".</strong>
 
 User Story #7: My landing page has a form element with a corresponding<strong> id="form".</strong>
 
